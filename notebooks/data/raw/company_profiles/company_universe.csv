@@ -1,0 +1,31 @@
+ticker,company_name,sector,ma_probability,last_updated,monitoring_status,ma_signals_count,last_signal_date,ma_sector_activity
+AAPL,Apple Inc.,Technology,0.0,2025-08-26,active,0,,HIGH
+MSFT,Microsoft Corporation,Technology,0.0,2025-08-26,active,0,,HIGH
+GOOGL,Alphabet Inc.,Technology,0.0,2025-08-26,active,0,,HIGH
+AMZN,Amazon.com Inc.,Consumer Discretionary,0.0,2025-08-26,active,0,,MEDIUM
+TSLA,Tesla Inc.,Consumer Discretionary,0.0,2025-08-26,active,0,,MEDIUM
+META,Meta Platforms Inc.,Technology,0.0,2025-08-26,active,0,,HIGH
+NVDA,NVIDIA Corporation,Technology,0.0,2025-08-26,active,0,,HIGH
+JPM,JPMorgan Chase & Co.,Financials,0.0,2025-08-26,active,0,,HIGH
+JNJ,Johnson & Johnson,Health Care,0.0,2025-08-26,active,0,,HIGH
+V,Visa Inc.,Financials,0.0,2025-08-26,active,0,,HIGH
+PG,Procter & Gamble Co.,Consumer Staples,0.0,2025-08-26,active,0,,LOW
+UNH,UnitedHealth Group Inc.,Health Care,0.0,2025-08-26,active,0,,HIGH
+HD,Home Depot Inc.,Consumer Discretionary,0.0,2025-08-26,active,0,,MEDIUM
+MA,Mastercard Inc.,Financials,0.0,2025-08-26,active,0,,HIGH
+BAC,Bank of America Corp.,Financials,0.0,2025-08-26,active,0,,HIGH
+DIS,Walt Disney Co.,Communication Services,0.0,2025-08-26,active,0,,MEDIUM
+ADBE,Adobe Inc.,Technology,0.0,2025-08-26,active,0,,HIGH
+CRM,Salesforce Inc.,Technology,0.0,2025-08-26,active,0,,HIGH
+NFLX,Netflix Inc.,Communication Services,0.0,2025-08-26,active,0,,MEDIUM
+PFE,Pfizer Inc.,Health Care,0.0,2025-08-26,active,0,,HIGH
+F,Ford Motor Co.,Consumer Discretionary,0.0,2025-08-26,active,0,,MEDIUM
+GE,General Electric Co.,Industrials,0.0,2025-08-26,active,0,,MEDIUM
+IBM,IBM Corp.,Technology,0.0,2025-08-26,active,0,,HIGH
+T,AT&T Inc.,Communication Services,0.0,2025-08-26,active,0,,MEDIUM
+VZ,Verizon Communications Inc.,Communication Services,0.0,2025-08-26,active,0,,MEDIUM
+WMT,Walmart Inc.,Consumer Staples,0.0,2025-08-26,active,0,,LOW
+KO,Coca-Cola Co.,Consumer Staples,0.0,2025-08-26,active,0,,LOW
+PEP,PepsiCo Inc.,Consumer Staples,0.0,2025-08-26,active,0,,LOW
+INTC,Intel Corp.,Technology,0.0,2025-08-26,active,0,,HIGH
+AMD,Advanced Micro Devices Inc.,Technology,0.0,2025-08-26,active,0,,HIGH
