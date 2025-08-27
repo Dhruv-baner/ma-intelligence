@@ -1,0 +1,81 @@
+data_collection:
+  company_universe_size: 40
+  max_retries: 3
+  rate_limit_delay: 0.2
+  timeout_seconds: 15
+  update_frequency: daily
+database:
+  backup_enabled: true
+  backup_frequency: daily
+  path: ../data/processed/ma_intelligence.db
+  type: sqlite
+financial_analysis:
+  data_sources:
+  - yahoo_finance
+  - alpha_vantage
+  risk_indicators:
+    debt_to_equity_high: 100
+    debt_to_equity_medium: 50
+    pe_ratio_low: 10
+    price_decline_high: -20
+    price_decline_medium: -10
+    profit_margin_low: 0.05
+  update_frequency: daily
+monitoring:
+  high_priority_sectors:
+  - Technology
+  - Health Care
+  - Financials
+  - Energy
+  ma_probability_thresholds:
+    critical_alert: 0.9
+    high_alert: 0.8
+    low_alert: 0.3
+    medium_alert: 0.6
+  min_signals_for_alert: 2
+  signal_decay_days: 30
+news_intelligence:
+  exclude_keywords:
+  - denied
+  - rejected
+  - canceled
+  - terminated
+  ma_keywords:
+  - merger
+  - acquisition
+  - buyout
+  - takeover
+  - deal
+  - acquire
+  - divest
+  - strategic review
+  - strategic alternatives
+  - spin-off
+  - restructuring
+  - consolidation
+  max_articles_per_source: 50
+  sources_per_day: 4
+project:
+  created: '2025-08-27T14:54:53.439764'
+  description: AI-powered M&A prediction and market intelligence system
+  name: M&A Deal Intelligence Platform
+  version: 1.0.0
+sec_filings:
+  filing_types:
+  - 10-K
+  - 10-Q
+  - 8-K
+  - DEF 14A
+  - 13D
+  - 13G
+  lookback_days: 90
+  signal_phrases:
+  - strategic alternatives
+  - strategic review
+  - divest
+  - non-core assets
+  - portfolio optimization
+  - restructuring
+  - cost reduction
+  - operational efficiency
+  - spin-off

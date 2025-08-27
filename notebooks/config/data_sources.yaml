@@ -1,0 +1,31 @@
+financial_apis:
+  alpha_vantage:
+    base_url: https://www.alpha-vantage.co/query
+    premium_rate_limit: 75000
+    rate_limit: 500
+    retry_attempts: 2
+  yahoo_finance:
+    delay_between_requests: 0.1
+    library: yfinance
+    rate_limit: 2000
+    retry_attempts: 3
+news_sources:
+  rss_feeds:
+  - name: Reuters Business
+    priority: high
+    url: http://feeds.reuters.com/reuters/businessNews
+  - name: MarketWatch
+    priority: high
+    url: http://feeds.marketwatch.com/marketwatch/topstories/
+  - name: Yahoo Finance
+    priority: medium
+    url: https://finance.yahoo.com/news/rssindex
+  - name: SEC Press Releases
+    priority: low
+    url: https://www.sec.gov/news/pressreleases.rss
+sec_edgar:
+  base_url: https://data.sec.gov
+  company_tickers_url: https://www.sec.gov/files/company_tickers.json
+  filings_url_template: https://data.sec.gov/submissions/CIK{cik}.json
+  rate_limit: 10
+  user_agent_required: true

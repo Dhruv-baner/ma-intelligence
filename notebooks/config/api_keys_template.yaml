@@ -1,0 +1,28 @@
+database:
+  sqlite:
+    cost: free
+    note: Local SQLite database
+    path: ../data/processed/ma_intelligence.db
+    required: true
+financial_data:
+  yahoo_finance:
+    cost: free
+    key: not_required
+    note: Uses yfinance library - no key needed
+    required: true
+news_apis:
+  alpha_vantage:
+    cost: 'free tier: 500 requests/day'
+    key: YOUR_ALPHAVANTAGE_KEY_HERE
+    required: false
+    url: https://www.alphavantage.co/support/#api-key
+  newsapi:
+    cost: 'free tier: 1000 requests/day'
+    key: YOUR_NEWSAPI_KEY_HERE
+    required: false
+    url: https://newsapi.org/register
+sec_edgar:
+  cost: free
+  rate_limit: 10 requests/second
+  required: true
+  user_agent: M&A Intelligence Platform (your.email@example.com)
